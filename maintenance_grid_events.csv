@@ -1,0 +1,16 @@
+event_id,substation_id,event_type,start_datetime,end_datetime
+E001,Substation_A,Inspection,6/10/2025 9:00,6/10/2025 17:00
+E002,Substation_A,Upgrade,6/10/2025 10:00,6/10/2025 18:00
+E003,Substation_A,Upgrade,6/15/2025 20:00,6/16/2025 2:00
+E004,Substation_B,Maintenance,6/11/2025 12:00,6/11/2025 16:00
+E005,Substation_B,Inspection,6/15/2025 19:00,6/16/2025 2:00
+E006,Substation_A,Maintenance,6/15/2025 16:00,6/15/2025 22:00
+E007,Substation_C,Maintenance,6/12/2025 9:00,6/12/2025 13:00
+E008,Substation_B,Upgrade,6/11/2025 18:00,6/11/2025 20:00
+E009,Substation_A,Maintenance,6/13/2025 14:00,6/13/2025 19:00
+E010,Substation_B,Upgrade,6/15/2025 16:00,6/15/2025 19:00
+E011,Substation_B,Maintenance,6/10/2025 13:00,6/10/2025 18:00
+E012,Substation_B,Upgrade,6/11/2025 16:00,6/11/2025 18:00
+E013,Substation_C,Inspection,6/12/2025 17:00,6/12/2025 20:00
+E014,Substation_C,Inspection,6/16/2025 14:00,6/16/2025 20:00
+E015,Substation_B,Maintenance,6/12/2025 11:00,6/12/2025 16:00

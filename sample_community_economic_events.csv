@@ -1,0 +1,11 @@
+event_name,location,start_date,end_date,expected_impact_level
+Marathon,Phoenix,6/28/2025,6/30/2025,High
+Tech Expo,Los Angeles,6/23/2025,6/25/2025,Medium
+Local Holiday,Phoenix,6/29/2025,7/1/2025,High
+Marathon,Phoenix,6/27/2025,6/29/2025,Medium
+Tech Expo,Las Vegas,6/22/2025,6/24/2025,Medium
+Music Festival,Las Vegas,6/16/2025,6/18/2025,Medium
+Farmers Market,Los Angeles,6/19/2025,6/20/2025,Medium
+Farmers Market,Los Angeles,6/21/2025,6/21/2025,High
+Marathon,Phoenix,6/27/2025,6/28/2025,Medium
+Farmers Market,Las Vegas,6/19/2025,6/19/2025,Medium
