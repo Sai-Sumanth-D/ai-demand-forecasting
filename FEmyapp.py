@@ -128,18 +128,21 @@ elif page == "Forecasting":
                         forecast_df = pd.DataFrame(result["forecast"])
 
                         st.markdown("### 📊 Forecast Visualization")
+                        chart_df = forecast_df.rename(columns={"substation_id": "Substation", "date": "Date", "expected_demand": "Demand"})
                         chart = (
-                            alt.Chart(forecast_df)
+                            alt.Chart(chart_df)
                             .mark_bar()
                             .encode(
-                                x=alt.X("date:N", title="Date", axis=alt.Axis(labelAngle=-45)),
-                                y=alt.Y("expected_demand:Q", title="Electricity Demand (MW)"),
-                                color=alt.Color("substation_id:N", title="Substation"),
-                                tooltip=["date", "substation_id", "expected_demand"]
+                                x=alt.X("Date:N", title="Date", axis=alt.Axis(labelAngle=-45)),
+                                y=alt.Y("Demand:Q", title="Electricity Demand (MW)"),
+                                color=alt.Color("Substation:N", title="Substation"),
+                                xOffset="Substation:N",
+                                tooltip=["Date", "Substation", "Demand"]
                             )
                             .properties(
                                 width=600,
-                                height=400
+                                height=400,
+                                title="📊 Forecast Visualization (Grouped by Substation)"
                             )
                         )
                         st.altair_chart(chart, use_container_width=True)
